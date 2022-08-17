@@ -1,0 +1,28 @@
+{
+    "name": "ohya/php_web",
+    "autoload": {
+        "classmap": [
+            "validators",
+            "libraries",
+            "action",
+            "config"
+        ],
+        "psr-4": {
+            "Ohya\\PhpWeb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "user.name",
+            "email": "ohya0915@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.23",
+        "fightbulc/moment": "^1.26",
+        "phpmailer/phpmailer": "^6.6",
+        "plasticbrain/php-flash-messages": "^1.0",
+        "facebook/graph-sdk": "^5.7",
+        "wixel/gump": "^1.11"
+    }
+}
